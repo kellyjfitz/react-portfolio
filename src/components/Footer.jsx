@@ -10,7 +10,7 @@ function Footer() {
   return (
     <footer className="fixed-bottom">
       <a
-        href="https://github.com/kellyjfitz/rate-calculator"
+        href="https://github.com/kellyjfitz/react-portfolio"
         target="_blank"
         title="See this site on GitHub"
         rel="noopener noreferrer"
