@@ -1,12 +1,11 @@
 footer {
-  padding: 5px;
-  font-size: 14px;
   text-align: center;
-  margin: 40px 0;
+  padding: 0;
+  background: white;
 }
 .icon {
   font-size: 40px;
-  padding: 0;
+
   text-align: center;
   margin: 0;
   text-decoration: none;
@@ -26,9 +25,4 @@ a.icon:hover {
   font-size: 35px;
   position: relative;
   top: -2px;
-}
-@media (max-width: 576px) {
-  footer {
-    margin-top: 20px;
-  }
 }

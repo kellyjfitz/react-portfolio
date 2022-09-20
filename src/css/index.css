@@ -3,6 +3,11 @@
   --sans-font: "Montserrat", sans-serif;
   --accent-color: rgb(230, 229, 229);
   --background-color: #fafafa;
+  --darker-color: #808080;
+}
+body {
+  font-family: var(--sans-font);
+  background-color: var(--background-color);
 }
 h1 {
   font-family: var(--sans-font);
@@ -24,4 +29,127 @@ h2 {
 h3 {
   font-size: 18px;
   font-weight: 600;
+}
+
+h3 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+strong {
+  font-weight: 500;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.navbar {
+  background: var(--accent-color);
+}
+.navbar-brand {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+/* the below makes active links in the nar bar a bit darker */
+.active {
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.section {
+  background-color: var(--accent-color);
+  border-radius: 20px;
+  padding: 30px;
+  margin: 0 0 50px;
+}
+
+.contact ul {
+  color: black;
+  font-size: 70px;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+.contact a {
+  text-decoration: none;
+  color: var(--darker-color);
+}
+
+.btn-info {
+  background-color: #808080;
+  border: 1px solid #808080;
+  font-weight: 400;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: black;
+  border: 1px solid var(--accent-color);
+  color: white;
+}
+
+.logo {
+  max-height: 90px;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sm-show {
+  display: none;
+}
+.xl-show {
+  display: none;
+}
+
+.flourish-embed {
+  margin-top: 20px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .sm-hide {
+    display: none;
+  }
+  .sm-show {
+    display: inline-block;
+  }
+  .section {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .md-hide {
+    display: none;
+  }
+  .buttons {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  h1.about {
+    font-size: 60px;
+  }
+  .hero {
+    padding: 50px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .xl-show {
+    display: inline-block;
+  }
 }
