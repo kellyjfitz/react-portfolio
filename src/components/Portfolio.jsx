@@ -4,22 +4,10 @@ import bluey2 from "../images/bluey2.png";
 import blueymobile from "../images/bluey-mobile.png";
 import weatherApp from "../images/weather-app2.png";
 import weatherMobile from "../images/weather-mobile.png";
+import electionCoverage from "../images/election-coverage.JPG";
+import electionCoverageSmall from "../images/election-coverage-small.JPG";
 
 function Portfolio() {
-  const creditStyle = {
-    width: "100%!",
-    marginTop: "4px!important",
-    textAlign: "right!important",
-  };
-  const flourishImg =
-    "https://public.flourish.studio/resources/made_with_flourish.svg";
-  const imgStyle = {
-    width: "105px!important",
-    height: "16px!important",
-    border: "none!important",
-    margin: "0!important",
-  };
-
   return (
     <div className="container">
       <Hero h1="Kelly Meleshko" />
@@ -71,14 +59,12 @@ function Portfolio() {
         </p>
 
         <button className="btn btn-info">
-          {" "}
           <a
             href="https://sage-jalebi-b44e5a.netlify.app/"
             target="_blank"
             title="Weather app"
             rel="noreferrer"
           >
-            {" "}
             Launch weather app
           </a>
         </button>
@@ -148,7 +134,7 @@ function Portfolio() {
       <div className="visualisations">
         <div className="section">
           <div className="clearfix">
-            <h3>Data visualisations</h3>
+            <h3>Election coverage</h3>
             <p>
               I am always looking for opportunities to visualise data, whether
               it be election results, Census data or even timelines.
@@ -188,41 +174,6 @@ function Portfolio() {
               </a>{" "}
               which used extensive graphs and maps.{" "}
             </p>
-            <p>
-              These are some of the visualisations I have created in my current
-              role.
-            </p>
-
-            <div
-              className="flourish-embed flourish-cards"
-              data-src="visualisation/10554936"
-            >
-              <script src="https://public.flourish.studio/resources/embed.js"></script>
-            </div>
-
-            <iframe
-              src="https://flo.uri.sh/visualisation/10554936/embed"
-              title="Interactive or visual content"
-              className="flourish-embed-iframe"
-              style={{ width: "100%", height: "600px" }}
-              frameBorder="0"
-              scrolling="no"
-              sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
-            ></iframe>
-            <div style={creditStyle}>
-              <a
-                className="flourish-credit"
-                href="https://public.flourish.studio/visualisation/10554936/?utm_source=embed&utm_campaign=visualisation/10554936"
-                target="_top"
-                style={{ textDecoration: "none!important" }}
-              >
-                <img
-                  alt="Made with Flourish"
-                  src={flourishImg}
-                  style={imgStyle}
-                />{" "}
-              </a>
-            </div>
           </div>
         </div>
       </div>
