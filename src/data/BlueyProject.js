@@ -7,22 +7,21 @@ const bluey = {
   image: blueyPic,
   imageAlt: "Screenshot of Bluey website",
   mobileImage: blueyMobile,
-  par1: (
-    <p>
-      If you have small children and you don't know about this Australian
-      cartoon - well, your life is about to change.
-    </p>
-  ),
-  par2: (
-    <p>
-      I built this site as the final project for the SheCodes Basics workshop.
-      It features basic HTML, CSS and Javascript.{" "}
-    </p>
-  ),
-  par3: (
-    <p>
-      When I built this I hadn't yet learnt about Bootstrap grids or Flexbox
-    </p>
+  text: (
+    <div>
+      <p>
+        If you have small children and you don't know about this Australian
+        cartoon - well, your life is about to change.
+      </p>
+
+      <p>
+        I built this site as the final project for the SheCodes Basics workshop.
+        It features basic HTML, CSS and Javascript.{" "}
+      </p>
+      <p>
+        When I built this I hadn't yet learnt about Bootstrap grids or Flexbox
+      </p>
+    </div>
   ),
   buttonText: "Go to Bluey site",
 };

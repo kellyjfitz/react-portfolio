@@ -24,14 +24,13 @@ export default function Section(props) {
           {props.project.title}
         </a>
       </h3>
-      {props.project.par1}
-      {props.project.par2}
+      {props.project.text}
+
       <img
         src={props.project.mobileImage}
         className="img-fluid   sm-show mt-1 mb-3"
         alt={props.project.imageAlt}
       />
-      {props.project.par3}
 
       <button className="btn btn-info">
         <a
